@@ -20,7 +20,7 @@ const personalWalletAddress = "0xf8894138aa4d7b54b7d49afa9d5600cdb5178721";
 const privateKey = new Buffer('f6bca93804832b20404b720da65ed233b5f0bbad292b16684f912c365c01965b', 'hex');
 const publicAddress = "0xb78197a43836e084bE4ff1F4c84d7557EA11F214";
 
-import { initSdk } from 'tenzorum'
+import { initSdk } from 'tenzorum';
 
 export const initApp = async () => {
   const pubKey = await getPubKey();

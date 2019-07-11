@@ -3,15 +3,6 @@ package com.nativesigner;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.bitgo.randombytes.RandomBytesPackage;
-import com.BV.LinearGradient.LinearGradientPackage;
-import com.react.rnspinkit.RNSpinkitPackage;
-import com.rt2zz.reactnativecontacts.ReactNativeContacts;
-import com.oblador.vectoricons.VectorIconsPackage;
-import li.yunqi.rnsecurestorage.RNSecureStoragePackage;
-import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
-import com.rnfingerprint.FingerprintAuthPackage;
-import org.reactnative.camera.RNCameraPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -31,16 +22,7 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new RandomBytesPackage(),
-            new LinearGradientPackage(),
-            new RNSpinkitPackage(),
-            new ReactNativeContacts(),
-            new VectorIconsPackage(),
-            new RNSecureStoragePackage(),
-            new ReactNativeOneSignalPackage(),
-            new FingerprintAuthPackage(),
-            new RNCameraPackage()
+          new MainReactPackage()
       );
     }
 
