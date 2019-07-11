@@ -21,8 +21,9 @@ import Input from "../App/Input";
 import {color} from "../../utils/themes";
 import Button from "./Button";
 import * as Animatable from "react-native-animatable";
-import {checkSubdomainOwner, newSubdomain} from "../../utils/ensFunctions";
+import { checkSubdomainOwner, newSubdomain } from "../../utils/ensFunctions";
 import {loadAccounts} from "../util/db";
+
 const emptyAddress = '0x0000000000000000000000000000000000000000';
 const currentAccount = "0x37386A1c592Ad2f1CafFdc929805aF78C71b1CE7";
 import FeatherIcon from 'react-native-vector-icons/Feather'
@@ -30,12 +31,12 @@ import MaterialCommIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 import EntypoIcon from 'react-native-vector-icons/Entypo'
 import {getBalance, getTenzBalance} from "../../utils/ether";
 import {checkAccess} from 'tenzorum'
-import {text, shadow} from "../App/themes";
+import { text, shadow } from "../App/themes";
 
 let publicAddress = "0xb78197a43836e084bE4ff1F4c84d7557EA11F214";
 
 
-let {height, width} = Dimensions.get('window');
+let { height, width } = Dimensions.get('window');
 
 type Props = {};
 export default class EnsRegistry extends Component<Props> {

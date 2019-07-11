@@ -24,7 +24,7 @@ import * as Animatable from 'react-native-animatable';
 
 const Web3 = require('web3');
 const web3 = new Web3();
-web3.setProvider(new web3.providers.HttpProvider('https://ropsten.infura.io/rqmgop6P5BDFqz6yfGla'));
+web3.setProvider(new web3.providers.HttpProvider('https://ropsten.infura.io/'));
 
 import Input from '../components/Input'
 import {color} from "../../utils/themes";

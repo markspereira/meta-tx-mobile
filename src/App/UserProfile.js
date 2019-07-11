@@ -116,7 +116,6 @@ export default class UserProfile extends Component<Props> {
     if (ensName.length !== 0) {
       // newSubdomain(ensName, 'tenz-id.eth', '0x37386A1c592Ad2f1CafFdc929805aF78C71b1CE7', '0x37386A1c592Ad2f1CafFdc929805aF78C71b1CE7');
       this.setState({username: ensName, showEnsModal: !this.state.showEnsModal});
-
     }
   };
 

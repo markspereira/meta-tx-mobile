@@ -14,8 +14,6 @@ const tokenAbi = [{"constant":false,"inputs":[{"name":"spender","type":"address"
 
 const tenzToken = new web3.eth.Contract(tokenAbi , "0xb07c36074b8333b01e38a307df804fdc6c37e0ec");
 
-
-
 const contractAddress = '0x624a5458c3ceb82E0ef1830b9a7a25525d07F69e';
 const personalWalletAddress = "0xf8894138aa4d7b54b7d49afa9d5600cdb5178721";
 // const personalWalletAddress = "0xf74694642a81a226771981cd38df9105a133c111";
